@@ -1,0 +1,29 @@
+@import '../../../styles/colors';
+
+@mixin perfectCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+.contact{
+    @include perfectCenter(column);
+    height: 100vh;
+    width: 100%;
+    background-color: $backblue;
+}
+h2{
+    justify-content: flex-start;
+    font-size: 2vh;           
+    color: $fontlightgray; 
+    margin-bottom: 4vh;
+}
+span{
+    color:$fontlightblue;
+} 
+.info{
+    height: 80vh;
+    width: 43%;
+    
+}

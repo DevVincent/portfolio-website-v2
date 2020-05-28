@@ -1,0 +1,165 @@
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 180vh;
+  background-color: #0a192f;
+}
+
+span {
+  color: #64f5ff;
+}
+
+h2 {
+  margin-bottom: 8vh;
+  margin-top: 4vh;
+}
+
+.info {
+  height: 80%;
+  width: 90%;
+}
+
+.project {
+  margin-top: 2vh;
+  margin-bottom: 6vh;
+  border: 3px solid #071225;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36vh;
+  width: 100%;
+}
+
+.project img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  height: 100%;
+  width: 65%;
+}
+
+.project img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.project .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 34%;
+}
+
+.project .project-content {
+  position: relative;
+  z-index: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 42vh;
+  height: 12vh;
+  right: 5vw;
+  background-color: #102446;
+}
+
+.project .project-bottom {
+  width: 100%;
+  height: 13vh;
+}
+
+.project ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project li {
+  margin: 1vh;
+  font-size: 1.5vh;
+  list-style: none;
+  color: #8892b0;
+  cursor: pointer;
+}
+
+.project li:hover {
+  color: #64f5ff;
+}
+
+.project p {
+  font-size: 1.15vh;
+  margin: auto;
+  margin-top: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ccd6f6;
+  width: 90%;
+}
+
+.project h2 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 2vh;
+  color: #ccd6f6;
+  width: 90%;
+  margin: auto;
+}
+
+.project h3 {
+  font-size: 1.2vh;
+  margin-left: 1vh;
+  margin-right: 1.2vh;
+  margin-top: 1.4vh;
+  margin-bottom: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ccd6f6;
+  width: 80%;
+}
+
+.project button {
+  margin-top: 1vh;
+  margin-right: 6vw;
+  margin-left: 2vw;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: #0a192f;
+  border: 1px solid #64f5ff;
+  padding: 10px 15px;
+  color: #64f5ff;
+  border-radius: 3px;
+  width: 4.5vw;
+  font-size: 0.7vw;
+}
+
+.project button:hover {
+  background-color: #15d9e7;
+  color: #0a192f;
+  border: 1px solid #ccd6f6;
+}
+/*# sourceMappingURL=Projects.css.map */

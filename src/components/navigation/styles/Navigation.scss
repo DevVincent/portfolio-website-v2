@@ -1,0 +1,56 @@
+@import '../../../styles/colors';
+@mixin perfectCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+nav{
+    @include perfectCenter(row);
+    height: 6vh;
+    background:  $navblue;
+    position: sticky;
+    z-index: 1;
+    .spacer{
+        flex:1;
+    }
+    ul{
+        @include perfectCenter(row);
+        height:4vh;
+        flex:end;
+    }
+    li{
+        cursor: pointer;
+        color:$fontlightgray;
+        list-style: none;
+        font-size: 1.5vh;
+        margin-left: 1.4vh;
+        margin-right: 1.4vh;
+    }
+    li:hover{
+        color:$fontlightblue;
+    }
+    span{
+        color:$fontlightblue;
+    }
+    button{
+        margin-right: 6vw;
+        margin-left: 2vw;
+        cursor: pointer;
+        appearance: none;
+        outline: 0;
+        background-color: $backblue;
+        border: 1px solid $fontlightblue;
+        padding: 10px 15px;
+        color: $fontlightblue;
+        border-radius: 3px;
+        width: 4.5vw;
+        height: 3.5vh;
+        font-size: 0.7vw;
+    }
+    button:hover{
+        background-color: $hoverBtn;
+        color:$backblue;
+        border: 1px solid $fontlightgray;
+    }
+}

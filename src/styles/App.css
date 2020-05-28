@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #3f3636;
+          box-shadow: inset 0 0 5px #3f3636;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a0b1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #664248;
+}
+/*# sourceMappingURL=App.css.map */

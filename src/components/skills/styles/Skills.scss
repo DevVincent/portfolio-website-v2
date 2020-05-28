@@ -1,0 +1,100 @@
+@import '../../../styles/colors';
+
+@mixin perfectCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 115vh;
+    width: 100%;
+    background-color: $backblue;
+}
+h2{
+    justify-content: flex-start;
+    font-size: 2vh;           
+    color: $fontlightgray; 
+    margin-bottom: 4vh;
+}
+span{
+    color:$fontlightblue;
+} 
+.skills-container{
+    
+    height: 80vh;
+    width: 43%;
+    p{
+        margin-top: 2vh;
+        height: 5vh;
+        font-size: 2vh;
+        color:$fontlightgray;
+    }
+}
+.frontend-skills{
+    border: 3px solid $darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+}
+.first-line{
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5vh;
+}
+.second-line{
+    display: grid;   
+    grid-template-columns: 1fr  1fr;
+    grid-column-gap: 5vh;
+}
+.backend-skills{
+    border: 3px solid $darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+}
+.b-first-line{
+    display: grid;   
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15vh;
+}
+.b-second-line{
+    display: grid;   
+    grid-template-columns: 1fr  1fr;
+    grid-column-gap: 15vh;
+}
+.card{
+    border: 2px solid $darkblue;
+    justify-self: center;
+    height: 18vh;
+    width: 18vh;
+    p{
+        height: 2vh;
+        text-align: center;
+        font-size: 2vh;
+        color:$fontbluegray;
+    }
+    img{
+        filter: grayscale(100%);
+        display: block;
+        margin: auto;
+        margin-top: 4vh;
+        height: 8vh;
+        width: 8vh;
+    }
+}   
+.card:hover{
+    img{
+    filter: grayscale(0%);
+    }
+}

@@ -125,4 +125,50 @@ header{
         border: 1px solid $fontlightgray;
     }
 }
-
+@media only screen and (max-width: 1100px) { 
+    .logo{
+        display: none;
+    }
+    .social-links{
+       display: none;
+    }   
+    header{  
+        height: 94vh;
+        background-image: url('../../../images/home.jpg');   
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;  
+    }
+    .banner-text{
+        margin-top: 8vh;
+        width: 90%;
+        height: 70vh;
+        position: absolute;
+        z-index: 2;
+        p{
+            margin-top: 20vh;
+            color:$fontlightblue;
+            font-size: 1.8vh;
+        }
+        h1{
+            color:$fontlightgray;
+            font-size: 5.5vh;
+        }
+        h3{
+            font-size: 3.5vh;
+            color:$fontbluegray;
+        }
+        h4{
+            margin-top: 2vh;
+            font-size: 1.4vh;
+            color:$fontbluegray;
+        }
+        p,h1,h3,h4{
+            width: 70%;
+            margin-left: 15%;
+        }
+        button{
+            display: none;           
+        }
+    }    
+}

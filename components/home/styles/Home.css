@@ -157,4 +157,52 @@ header {
   color: #ccd6f6;
   border: 1px solid #ccd6f6;
 }
+
+@media only screen and (max-width: 1100px) {
+  .logo {
+    display: none;
+  }
+  .social-links {
+    display: none;
+  }
+  header {
+    height: 94vh;
+    background-image: url("../../../images/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .banner-text {
+    margin-top: 8vh;
+    width: 90%;
+    height: 70vh;
+    position: absolute;
+    z-index: 2;
+  }
+  .banner-text p {
+    margin-top: 20vh;
+    color: #64f5ff;
+    font-size: 1.8vh;
+  }
+  .banner-text h1 {
+    color: #ccd6f6;
+    font-size: 5.5vh;
+  }
+  .banner-text h3 {
+    font-size: 3.5vh;
+    color: #8892b0;
+  }
+  .banner-text h4 {
+    margin-top: 2vh;
+    font-size: 1.4vh;
+    color: #8892b0;
+  }
+  .banner-text p, .banner-text h1, .banner-text h3, .banner-text h4 {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .banner-text button {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

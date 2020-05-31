@@ -11,7 +11,7 @@ const Home = () => {
     }, []);
     return(
         <header>
-        <div className = "home" id="Home">
+        <section className = "home" id="Home">
             <div data-aos="fade-up"className = "banner-text">
                 <p data-aos="fade-right" data-aos-duration="700">Hi! my name is</p>
                 <h1 data-aos="fade-right" data-aos-duration="1200">Vicente Manzano</h1>
@@ -31,11 +31,9 @@ const Home = () => {
                     >
                     See More
                     </Link>
-                </button>
-                
-            </div>
-          
-        </div>
+                </button>              
+            </div>         
+        </section>
         <div className = "logo">
                 <Link
                     activeClass = "active"

@@ -1,0 +1,29 @@
+@import '../../../styles/colors';
+
+@mixin perfectCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background-color: $darkblue;
+    p{
+        margin-top: 2vh;
+        font-size: 1.4vh;           
+        color: $fontbluegray; 
+    }
+    span{
+        color:$fontlightgray;
+    } 
+}
+
